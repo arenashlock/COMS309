@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comments">
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/CancelComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:backgroundTint="#FFCCCB"
+        android:textColor="#35378f"
+        android:textSize="10dp"
+        android:text="Cancel"/>
+
+    <Button
+        android:id="@+id/SendComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="310dp"
+        android:gravity="center"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:textSize="10dp"
+        android:text="Post"/>
+
+    <EditText
+        android:id="@+id/commentContent"
+        android:background="@drawable/content_border"
+        android:layout_width="380dp"
+        android:layout_height="750dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="15dp"
+        android:textColorHint="#aaaaaa"
+        android:hint="Start here..."
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/postedBy"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="20dp"
+        android:text="Posted by:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/reviewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="110dp"
+        android:text="username"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dateReview"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="270dp"
+        android:textAlignment="textEnd"
+        android:text="MM/DD/YYYY"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cleanlinessReviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="20dp"
+        android:text="Cleanliness"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cleanlinessReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="52dp"
+        android:text="#"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/cleanlinessStar"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="67dp"
+        app:srcCompat="@drawable/review_star" />
+
+    <TextView
+        android:id="@+id/smellReviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="140dp"
+        android:text="Smell"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/smellReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="145dp"
+        android:text="#"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/smellStar"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="160dp"
+        app:srcCompat="@drawable/review_star" />
+
+    <TextView
+        android:id="@+id/privacyReviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="210dp"
+        android:text="Privacy"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/privacyReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="221dp"
+        android:text="#"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/privacyStar"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="236dp"
+        app:srcCompat="@drawable/review_star" />
+
+    <TextView
+        android:id="@+id/accessibilityReviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="290dp"
+        android:text="Accessbility"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/accessibilityReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="322dp"
+        android:text="#"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/accessibilityStar"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="337dp"
+        app:srcCompat="@drawable/review_star" />
+
+    <TextView
+        android:id="@+id/reasonReviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="195dp"
+        android:layout_marginStart="20dp"
+        android:text="Reasons for the review:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/reasonReview"
+        android:layout_width="370dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="20dp"
+        android:text="Reason..."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvComments"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="450dp"/>
+
+    <Button
+        android:id="@+id/PostComment"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="785dp"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Leave a comment" />
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BathroomView">
+
+    <Button
+        android:id="@+id/BathroomList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Bathroom List" />
+
+    <Button
+        android:id="@+id/CreateJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="+ Job" />
+
+    <Button
+        android:id="@+id/BathroomChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Chat" />
+
+    <ImageView
+        android:id="@+id/bathroomPic"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/general_bathroom" />
+
+    <TextView
+        android:id="@+id/mainInfo"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:text="mainInfo"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/toiletryInfo"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
+        android:text="toiletryInfo"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/locDescHeader"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:text="Where to find this bathroom:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/locDescription"
+        android:layout_width="375dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:text="locDescription"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvReviews"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="550dp"/>
+
+    <Button
+        android:id="@+id/CreateReview"
+        android:layout_width="375dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="785dp"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Leave a review for this bathroom" />
+</RelativeLayout>

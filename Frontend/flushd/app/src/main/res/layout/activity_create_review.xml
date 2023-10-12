@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateReview">
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:backgroundTint="#FFCCCB"
+        android:textColor="#35378f"
+        android:textSize="10dp"
+        android:text="Cancel"/>
+
+    <ImageView
+        android:id="@+id/bathroomPic"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/general_bathroom" />
+
+    <TextView
+        android:id="@+id/reviewHeader"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:text="You are leaving a review for:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/bathroomInfo"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
+        android:text="bathroomInfo"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cleanlinessText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="15dp"
+        android:text="Cleanliness: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/cleanlinessRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="117dp"/>
+
+    <TextView
+        android:id="@+id/smellText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="455dp"
+        android:layout_marginStart="15dp"
+        android:text="Smell: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/smellRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="455dp"
+        android:layout_marginStart="70dp"/>
+
+    <TextView
+        android:id="@+id/privacyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:layout_marginStart="15dp"
+        android:text="Privacy: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/privacyRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:layout_marginStart="85dp"/>
+
+    <TextView
+        android:id="@+id/accessibilityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="515dp"
+        android:layout_marginStart="15dp"
+        android:text="Accessibility: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/accessibilityRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="515dp"
+        android:layout_marginStart="125dp"/>
+
+    <TextView
+        android:id="@+id/contentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="545dp"
+        android:layout_marginStart="15dp"
+        android:text="Reasons for your review: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/content"
+        android:background="@null"
+        android:layout_width="380dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="575dp"
+        android:layout_marginStart="15dp"
+        android:textColorHint="#aaaaaa"
+        android:hint="Start here..."
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/PostReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="785dp"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Post Review" />
+</RelativeLayout>

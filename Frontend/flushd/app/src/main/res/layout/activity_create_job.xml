@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateJob">
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:backgroundTint="#FFCCCB"
+        android:textColor="#35378f"
+        android:textSize="10dp"
+        android:text="Cancel"/>
+
+    <ImageView
+        android:id="@+id/bathroomPic"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/general_bathroom" />
+
+    <TextView
+        android:id="@+id/jobHeader"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:text="You are making a job for:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/bathroomInfo"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
+        android:text="bathroomInfo"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/typeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="15dp"
+        android:text="Type of job: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="120dp"/>
+
+    <TextView
+        android:id="@+id/severityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="455dp"
+        android:layout_marginStart="15dp"
+        android:text="Severity: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/severity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="455dp"
+        android:layout_marginStart="95dp"/>
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:layout_marginStart="15dp"
+        android:text="Elaborate on the issue: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:background="@null"
+        android:layout_width="380dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginStart="15dp"
+        android:textColorHint="#aaaaaa"
+        android:hint="Start here..."
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/CreateJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="785dp"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Create Job" />
+
+</RelativeLayout>

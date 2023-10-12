@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="338dp"
+        android:layout_height="465dp"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/flushd_logo" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="425dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Username: "/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="413dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="475dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Password: "/>
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="463dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/invalidLogin"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="515dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#8B0000"
+        android:text="Incorrect username or password"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Log In"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Create an Account"/>
+
+</RelativeLayout>

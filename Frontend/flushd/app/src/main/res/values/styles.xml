@@ -1,0 +1,16 @@
+<resources>
+    <string name="menu_drawer_open">Drawer Open</string>
+    <string name="menu_drawer_close">Drawer Close</string>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#35378f</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:statusBarColor">#35378f</item>
+        <item name="colorPrimaryVariant">#35378f</item>
+        <item name="colorSecondary">#35378f</item>
+        <item name="colorSecondaryVariant">#35378f</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

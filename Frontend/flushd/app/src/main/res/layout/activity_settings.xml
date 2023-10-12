@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Settings">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="228dp"
+        android:layout_height="355dp"
+        android:layout_marginTop="-40dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/flushd_logo" />
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_centerHorizontal="true"
+        android:text="First Name: "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="315dp"
+        android:layout_centerHorizontal="true"
+        android:text="Last Name: "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="355dp"
+        android:layout_centerHorizontal="true"
+        android:text="Email: "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="395dp"
+        android:layout_centerHorizontal="true"
+        android:text="Username: "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/editSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Edit Settings"/>
+</RelativeLayout>

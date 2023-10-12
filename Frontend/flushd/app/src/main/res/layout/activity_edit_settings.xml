@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditSettings">
+
+    <Button
+        android:id="@+id/cancelUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:backgroundTint="#FFCCCB"
+        android:textColor="#35378f"
+        android:textSize="10dp"
+        android:text="Cancel"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="228dp"
+        android:layout_height="355dp"
+        android:layout_marginTop="-40dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/flushd_logo" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="275dp"
+        android:layout_centerHorizontal="true"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="335dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="395dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="455dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="515dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/passwordCheck"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="575dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Re-enter Your Password"/>
+
+    <Button
+        android:id="@+id/updateSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="655dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:backgroundTint="#eeeeee"
+        android:textColor="#35378f"
+        android:text="Update Information"/>
+
+    <Button
+        android:id="@+id/deleteAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="715dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:backgroundTint="#FFCCCB"
+        android:textColor="#35378f"
+        android:text="DELETE ACCOUNT"/>
+
+</RelativeLayout>

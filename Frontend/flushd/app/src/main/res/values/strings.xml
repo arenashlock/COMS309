@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">flushd</string>
+    <string name="title_activity_job_board">JobBoard</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="nav">Navigation Drawer</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="userTypes">
+        <item>User</item>
+        <item>Maintenance</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Neutral</item>
+    </string-array>
+
+    <string-array name="severity">
+        <item>Urgent</item>
+        <item>Routine</item>
+    </string-array>
+
+    <string-array name="issue">
+        <item>Plumbing</item>
+        <item>Sanitizing</item>
+        <item>Handiwork</item>
+    </string-array>
+
+    <string-array name="ratings">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+</resources>
